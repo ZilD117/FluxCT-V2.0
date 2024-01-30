@@ -1,10 +1,10 @@
 # FluxCT V2.0
 
-Welcome to the batch code for the FluxCT webtool. The following downloadable script allows the user to download the script for to batch run Kepler ID data. 
+Welcome to the batch code for the FluxCT V2.0 webtool. The following downloadable script allows the user to download the script for to batch run Kepler/TESS ID data. 
 
 Inputs: 
 <ul>
-<li> A .csv file of KIC IDs, using a comma as the separator, with the title 'id' in the column. </li>
+<li> A .csv file of KIC/TIC IDs, using a comma as the separator, with the title 'id' in the column. </li>
 <li> A directory path for where the script and id file will be kept. </li>
 <li> A directory path for the fits files, plots, and final data file to be sent. </li>
 </ul>
