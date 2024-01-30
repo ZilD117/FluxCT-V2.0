@@ -19,10 +19,10 @@ Outputs:
 Any problems, concerns or suggestions should be sent to: Zilin.Dong@vanderbilt.edu and jessica.s.stasik@vanderbilt.edu for the most timely review and reply. 
 
 Update:   
-We upgraded brand new version FluxCT V2.0, a web tool for identifying contaminating flux in
-Kepler and TESS target pixel files due to secondary visual sources. FluxCT V2.0 focuses on enhancing5
-functionality, user experience, and data processing capabilities. We resolved existing issues in using6
-target pixel files from TESS, allowing the user to search any point object observed by TESS and acquire7
+  We upgraded brand new version FluxCT V2.0, a web tool for identifying contaminating flux in
+Kepler and TESS target pixel files due to secondary visual sources. FluxCT V2.0 focuses on enhancing
+functionality, user experience, and data processing capabilities. We resolved existing issues in using
+target pixel files from TESS, allowing the user to search any point object observed by TESS and acquire
 parameters for the star and any possible contaminating visual pairs. Issues relating to the running8
 of the web tool have been resolved, and a batch code for TESS is now available on the companion9
 GitHUb.   
