@@ -23,8 +23,8 @@ from astroquery.gaia import Gaia
 from astropy.coordinates import SkyCoord
 import astropy.units as u
 import math
-from ast import literal_eval
-import ssl
+
+
 import lightkurve
 import os
 import glob
@@ -138,7 +138,7 @@ def get_tasoc_tpf(tic, sector=None):
 
 # print(os.getcwd()) In case you don't know what your current working dir is
 
-try:
+"""try:
      _create_unverified_https_context = ssl._create_unverified_context
 except AttributeError:
     # Legacy Python that doesn't verify HTTPS certificates by default,
@@ -146,7 +146,7 @@ except AttributeError:
 else:
     # Handle target environment that doesn't support HTTPS verification,
     ssl._create_default_https_context = _create_unverified_https_context
-
+"""
 # Paths and files 
 code_file_path = './' # USER INPUT - Code directory 
 plot_path = './plots/' # USER INPUT - Plot directory 
